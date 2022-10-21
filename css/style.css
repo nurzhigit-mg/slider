@@ -1,54 +1,55 @@
-.swiper-container {
-    width: 100%;
-    height: 100%;
+*{
+    margin: 0;
+
+    padding: 0;
+
+
+}
+.container{
+    width: 90%;
+    margin: 0 auto;
+
+
 }
 
-.swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
+#header{
+    background: #FFFFFF;
 
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
+
+
+}
+.head{
+
     display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
+    justify-content:start;
     align-items: center;
+
+
+}
+svg{
+    margin: 40px;
+
+
+}
+a{
+    width: 43px;
+    height: 10px;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+    color: #222222;
+    margin: 20px;
 }
 
-.swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+.contakb{
+    width: 43px;
+    height: 10px;
+    font-family: 'Work Sans',sans-serif;
+    font-size: 15px;
+    line-height: 10px;
+    color: #0082F3;
 }
 
-.swiper-container {
-    width: 100%;
-    height: 300px;
-    margin: 20px auto;
-}
 
-.append-buttons {
-    text-align: center;
-    margin-top: 20px;
-}
 
-.append-buttons button {
-    display: inline-block;
-    cursor: pointer;
-    border: 1px solid #007aff;
-    color: #007aff;
-    text-decoration: none;
-    padding: 4px 10px;
-    border-radius: 4px;
-    margin: 0 10px;
-    font-size: 13px;
-}
+
